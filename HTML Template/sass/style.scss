@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&family=Rubik:ital,wght@1,300&display=swap');
+
+@import './include/variables';
+@import './include/global.scss';
+
+// body{
+//     // background-color: blue;
+// }
+.nametag{
+    font-size: 12px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-color:white;
+    overflow-x: hidden;
+}
+.carousel-inner {
+    position: sticky;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    background-color: rgb(19, 201, 247);
+    height: 5vh;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
+  .imageFlex {
+
+    height: 113px;
+  }
+  
+  .item.py-2 {
+    width: 20%;
+  }
+#top-sale{
+
+ 
+    .owl-carousel.item.product a{
+        overflow: hidden;
+    }
+    .owl-carousel.item.product img{
+        transition: transform .5s ease;
+    }
+    .owl-carousel.item.product img:hover{
+        transform: scale(1.1);
+    }
+    .owl-carousel.owl-nav bottom{
+        position:absolute;
+        top: 30%;
+        outline: none;
+    }
+    .owl-carousel.owl-nav button.owl-prev{
+       left: o;
+
+    }
+    .owl-carousel.owl-nav buttom.owl-prev span {
+        font-size: 35px;
+        color:$color-primary;
+        margin-left: -4rem;
+        padding: 0 1rem;
+    }
+    .owl-carousel.owl-nav buttom.owl-next span {
+        right:0;
+    }
+    .owl-carousel.owl-nav button.owl-next span{
+        font-size: 35px;
+        color:$color-primary;
+        margin-right: -4rem;
+        padding: 0 1rem;
+    }
+}
+
+
+.owl-carousel.owl-theme.d-flex.justify-content-between {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: space-evenly;
+}
+.item.py-2 {
+     width: auto; 
+    margin-inline: 5%;
+}
+
+.button-group{
+    display: flex;
+    justify-content: end;
+}
+
+.grid{
+    display: inline-grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    gap: 20px;
+}
+.img-fluid-G{
+    height: 30vh;
+    width: auto;
+}
+.go{
+    color: rgb(79, 9, 255);
+    text-decoration: underline;
+    font-weight: normal;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
